@@ -5,9 +5,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::middleware('auth:sanctum')
     ->get('/user', function (Request $request) {
-        if(true) {
-            
+        if (true) {
         }
 
-                        return $request->user();
-});
+        return $request->user();
+    });
